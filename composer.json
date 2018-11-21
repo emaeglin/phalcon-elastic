@@ -1,0 +1,24 @@
+{
+  "name": "emaeglin/phalcon-elastic",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "emaeglin",
+      "homepage": "https://github.com/emaeglin"
+    },
+    {
+      "name": "Bohdan Petryshyn",
+      "email": "emaglin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "philkra/elastic-apm-php-agent": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Emaeglin\\Phalcon\\Elastic\\": "src/"
+    },
+    "classmap": ["src/", "src/Models/", "src/Traits/"]
+  }
+}
