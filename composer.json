@@ -19,6 +19,6 @@
     "psr-4": {
       "Emaeglin\\Phalcon\\Elastic\\": "src/"
     },
-    "classmap": ["src/", "src/Models/", "src/Traits/"]
+    "classmap": ["src/", "src/Models/"]
   }
 }
